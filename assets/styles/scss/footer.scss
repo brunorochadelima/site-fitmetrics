@@ -1,0 +1,18 @@
+@import "./variaveis";
+
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background: #ECEFF1;
+  color: $gray600;
+
+  hr {
+    border: 1px solid #d9dbe9;
+  }
+
+  .links_buttom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}

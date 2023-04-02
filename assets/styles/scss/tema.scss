@@ -1,0 +1,89 @@
+@import "./variaveis";
+
+html {
+  font-family: "Maven Pro", sans-serif;
+}
+
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.container_home {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.h1 {
+  font-size: 2.369rem;
+  color: $gray800;
+  @media (min-width: 768px) {
+    font-size: 3.157rem;
+  }
+}
+
+.h2 {
+  font-size: 1.777rem;
+  color: $gray800;
+  @media (min-width: 768px) {
+    font-size: 2.369rem;
+  }
+}
+
+.h3 {
+  font-size: 1.333rem;
+  font-weight: lighter;
+  color: $gray800;
+  @media (min-width: 768px) {
+    font-size: 1.777rem;
+  }
+}
+
+.button_primary {
+  text-decoration: none;
+  background: $greenPrimary;
+  color: $gray900;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 20px 70px;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+
+  &--small {
+    @extend .button_primary;
+    padding: 20px 40px;
+  }
+}
+
+.button_disabled {
+  @extend .button_primary;
+  background: #e0e0e0;
+  color: $gray500;
+}
+
+.button_secondary {
+  text-decoration: none;
+  border: 2px solid $greenPrimary;
+  color: $gray900;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 20px 70px;
+  display: inline-block;
+  text-align: center;
+
+  &--small {
+    @extend .button_secondary;
+    padding: 20px 40px;
+  }
+}

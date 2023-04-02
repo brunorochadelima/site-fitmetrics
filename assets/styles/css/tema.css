@@ -1,0 +1,88 @@
+html {
+  font-family: "Maven Pro", sans-serif;
+}
+
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.container_home {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.h1 {
+  font-size: 2.369rem;
+  color: #27272A;
+}
+@media (min-width: 768px) {
+  .h1 {
+    font-size: 3.157rem;
+  }
+}
+
+.h2 {
+  font-size: 1.777rem;
+  color: #27272A;
+}
+@media (min-width: 768px) {
+  .h2 {
+    font-size: 2.369rem;
+  }
+}
+
+.h3 {
+  font-size: 1.333rem;
+  font-weight: lighter;
+  color: #27272A;
+}
+@media (min-width: 768px) {
+  .h3 {
+    font-size: 1.777rem;
+  }
+}
+
+.button_primary, .button_disabled, .button_primary--small {
+  text-decoration: none;
+  background: #A3E635;
+  color: #18181B;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 20px 70px;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.button_primary--small {
+  padding: 20px 40px;
+}
+
+.button_disabled {
+  background: #e0e0e0;
+  color: #71717A;
+}
+
+.button_secondary, .button_secondary--small {
+  text-decoration: none;
+  border: 2px solid #A3E635;
+  color: #18181B;
+  font-weight: bold;
+  border-radius: 1rem;
+  padding: 20px 70px;
+  display: inline-block;
+  text-align: center;
+}
+.button_secondary--small {
+  padding: 20px 40px;
+}/*# sourceMappingURL=tema.css.map */

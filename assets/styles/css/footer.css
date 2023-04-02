@@ -1,0 +1,14 @@
+.footer {
+  margin-top: 2rem;
+  padding: 1rem 0;
+  background: #ECEFF1;
+  color: #52525B;
+}
+.footer hr {
+  border: 1px solid #d9dbe9;
+}
+.footer .links_buttom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}/*# sourceMappingURL=footer.css.map */
