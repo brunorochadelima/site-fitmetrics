@@ -2,6 +2,8 @@
 
 Site para apresentação do app fitmetrics.
 
+-----O app está sendo desenvolvido com react native e será lançado em breve-----
+
 
 ## 🎨 Demonstração
 
