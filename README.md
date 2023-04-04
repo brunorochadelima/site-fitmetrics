@@ -1,6 +1,3 @@
-# site-fitmetrics
-
-
 # site fitmetrics
 
 Site para apresentação do app fitmetrics.
