@@ -1,8 +1,8 @@
-# site fitmetrics
+# Site fitmetrics
 
 Site para apresentação do app fitmetrics.
 
------O app está sendo desenvolvido com react native e será lançado em breve-----
+Estou atualmente desenvolvendo o aplicativo e planejo lançá-lo em breve. Para garantir um desempenho excepcional e uma estrutura sólida de back-end, estou utilizando o Laravel, enquanto o aplicativo em si está sendo desenvolvido com React Native.
 
 
 ## 🎨 Demonstração
