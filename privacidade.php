@@ -70,9 +70,25 @@
       contato@fitmetrics.com.br
     </p>
   </section>
-  <?php 
+  <?php
   require "./footer.php"
   ?>
+
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "FitMetrics",
+      "description": "Acompanhe seu progresso de saúde de forma fácil e eficiente com o FitMetrics! Nosso aplicativo oferece um acompanhamento personalizado de seu peso, gordura corporal, IMC, medidas corporais e muito mais, para que você possa atingir seus objetivos",
+      "operatingSystem": "Android",
+      "applicationCategory": "Health",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL"
+      }
+    }
+  </script>
 </body>
 
 </html>
