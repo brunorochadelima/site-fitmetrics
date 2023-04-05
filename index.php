@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Transforme o seu corpo e alcance seus objetivos de fitness com o aplicativo FitMetrics. Receba dicas personalizadas e rastreie seus progressos com tecnologia avançada." data-rh="true" />
   <link rel="canonical" href="https://www.fitmetrics.com.br" />
+  <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon" />
 
   <title>
     FitMetrics - Alcançe o corpo dos seus sonhos com ajuda da tecnologia
@@ -130,6 +131,21 @@
   <?php
   require "./footer.php"
   ?>
+    <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "FitMetrics",
+      "description": "Acompanhe seu progresso de saúde de forma fácil e eficiente com o FitMetrics! Nosso aplicativo oferece um acompanhamento personalizado de seu peso, gordura corporal, IMC, medidas corporais e muito mais, para que você possa atingir seus objetivos",
+      "operatingSystem": "Android",
+      "applicationCategory": "Health",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL"
+      }
+    }
+  </script>
 </body>
 
 </html>
