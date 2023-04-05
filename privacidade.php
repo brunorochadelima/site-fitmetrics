@@ -67,7 +67,7 @@
     <p>
       Se você tiver alguma dúvida ou preocupação em relação a esta política de
       privacidade, entre em contato conosco através do e-mail
-      contato@webappmedidascorporais.com
+      contato@fitmetrics.com.br
     </p>
   </section>
   <?php 
