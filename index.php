@@ -36,7 +36,7 @@
       <!-- <a href="/admin/dashboard" role="button" class="button_primary">
         COMEÇAR AGORA
       </a> -->
-      <a href="#" role="button">
+      <a href="https://play.google.com/store/apps/details?id=com.bruno_rocha_de_lima.fitapp" role="button">
         <img src="./assets/img/google-play.svg" width="250" height="74">
       </a>
 
